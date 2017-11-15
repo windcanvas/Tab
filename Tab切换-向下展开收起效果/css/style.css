@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	list-style: none;
+}
+
+.menu{
+	width: 210px;
+	margin: 50px auto;
+	border: 1px solid #ccc;
+}
+
+.menu p{
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.menu div ul{
+	display: none;
+}
+
+.menu li{
+	height: 24px;
+	line-height: 24px;
+	padding-left: 5px;
+}
