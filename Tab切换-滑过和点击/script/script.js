@@ -4,7 +4,7 @@ function $(id) {
 
 window.onload = function() {
 	//获取鼠标滑过或点击的标签和要切换内容的元素
-	var titles = $('notice-tit').getElementsByTagName('li');
+	var titles = $('notice-tit').getElementsByTagName('li'),
 	    divs = $('notice-con').getElementsByTagName('div');
 
 	if(titles.length!=divs.length) return;
